@@ -1,0 +1,38 @@
+<div align="center">
+
+![VHS Era Logo](assets/logo.svg)
+
+# vhs-era-theme.kitty
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/mistweaverco/vhs-era-theme.kitty?style=for-the-badge)](https://github.com/mistweaverco/vhs-era-theme.kitty/releases/latest)
+
+[Install](#install)
+
+<p></p>
+
+The VHS era,
+which spanned roughly from the late 1970s to the early 2000s,
+was a time when people could rent movies,
+record TV shows,
+and watch home videos at home using bulky magnetic tape cassettes.
+
+This experience was defined by the ritual of trips to
+video rental stores like Blockbuster,
+the anticipation of recording favorite programs,
+and the physical nature of tapes that had to
+be rewound and could degrade over time.
+
+<p></p>
+
+</div>
+
+## Install
+
+Copy the `vhs-era-theme.kitty.conf` file to your
+`~/.config/kitty/themes/` directory
+and import it directly in your `kitty.conf` file with:
+
+```sh
+include ~/.config/kitty/themes/vhs-era-theme.kitty.conf
+```
+
