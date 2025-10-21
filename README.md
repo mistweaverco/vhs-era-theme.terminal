@@ -42,8 +42,9 @@ Then, add the following line to your `wezterm.lua` configuration file:
 require("themes.vhs-era-theme")
 
 local vhs_era_theme = require 'themes.vhs-era.wezterm.lua'
-config.colors = vhs_era.colors
-config.color_scheme = "vhs-era"
+config.colors = vhs_era_theme.colors
+config.window_frame = vhs_era_theme.window_frame
+config.color_scheme = vhs_era_theme.color_scheme
 ```
 
 ### Kitty
