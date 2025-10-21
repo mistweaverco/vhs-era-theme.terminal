@@ -34,6 +34,36 @@ config.colors = {
     "#3ddbd9", -- bright cyan  (color14)
     "#ffffff", -- bright white (color15)
   },
+  tab_bar = {
+    background = "#0d0d0d", -- deep black backdrop for contrast
+    active_tab = {
+      bg_color = "#ee5396", -- vibrant magenta
+      fg_color = "#161616", -- dark text for contrast
+      intensity = "Bold",
+      underline = "None",
+      italic = false,
+    },
+    inactive_tab = {
+      bg_color = "#262626", -- muted gray background
+      fg_color = "#8d8d8d", -- dimmed text
+      intensity = "Normal",
+    },
+    inactive_tab_hover = {
+      bg_color = "#33b1ff", -- neon blue on hover
+      fg_color = "#161616", -- dark text for strong contrast
+      italic = true,
+    },
+    new_tab = {
+      bg_color = "#161616",
+      fg_color = "#525252",
+      intensity = "Normal",
+    },
+    new_tab_hover = {
+      bg_color = "#3ddbd9", -- bright cyan when hovered
+      fg_color = "#161616",
+      italic = true,
+    },
+  },
 }
 
 -- optional border color
