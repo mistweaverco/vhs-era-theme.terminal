@@ -5,6 +5,11 @@ local config = wezterm.config_builder()
 
 config.color_scheme = "vhs-era"
 
+config.inactive_pane_hsb = {
+  saturation = 0.7,
+  brightness = 0.6,
+}
+
 config.colors = {
   foreground = "#dde1e6",
   background = "#161616",
