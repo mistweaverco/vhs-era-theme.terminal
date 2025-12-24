@@ -1,6 +1,11 @@
--- vhs-era theme for WezTerm
+-------------------------------
+-- vhs-era theme for WezTerm --
+-------------------------------
+
+---@type Wezterm
 local wezterm = require("wezterm")
 
+---@type wezterm.Config
 local config = wezterm.config_builder()
 
 config.color_scheme = "vhs-era"
