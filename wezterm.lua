@@ -24,29 +24,29 @@ config.colors = {
   cursor_border = "#f2f4f8",
   selection_fg = "#f2f4f8",
   selection_bg = "#525252",
-  -- URL color (WezTerm uses `ansi` or `hyperlink` styles; we’ll map it via “ansi” bold maybe)
+  -- ANSI palette - semantic roles; VHS pink stays in tab/border chrome above.
   ansi = {
-    "#262626", -- black  (color0)
-    "#ff7eb6", -- red    (color1)
-    "#42be65", -- green  (color2)
-    "#82cfff", -- yellow (color3)  note: kitty had separate color3 vs color11
-    "#33b1ff", -- blue   (color4)
-    "#ee5396", -- magenta(color5)
-    "#3ddbd9", -- cyan   (color6)
-    "#dde1e6", -- white  (color7)
+    "#262626", -- black   (color0)
+    "#ff4d6d", -- red     (color1) errors / invalid
+    "#55e07a", -- green   (color2) success / valid paths
+    "#ffd970", -- yellow  (color3) warnings
+    "#33b1ff", -- blue    (color4) info / paths
+    "#c49bff", -- magenta (color5) constants
+    "#a8ecff", -- cyan    (color6) strings
+    "#dde1e6", -- white   (color7)
   },
   brights = {
-    "#393939", -- bright black (color8)
-    "#ff7eb6", -- bright red   (color9)
-    "#42be65", -- bright green (color10)
-    "#82cfff", -- bright yellow(color11)
-    "#33b1ff", -- bright blue  (color12)
-    "#ee5396", -- bright magenta(color13)
-    "#3ddbd9", -- bright cyan  (color14)
-    "#ffffff", -- bright white (color15)
+    "#393939", -- bright black   (color8)
+    "#ff7a93", -- bright red     (color9)
+    "#72f59a", -- bright green   (color10)
+    "#ffb655", -- bright yellow  (color11)
+    "#78c6ff", -- bright blue    (color12)
+    "#d9b8ff", -- bright magenta (color13)
+    "#c6fff6", -- bright cyan    (color14)
+    "#ffffff", -- bright white   (color15)
   },
   tab_bar = {
-    background = "#0d0d0d", -- deep black backdrop for contrast
+    background = "#161616",
     active_tab = {
       bg_color = "#ee5396", -- vibrant magenta
       fg_color = "#161616", -- dark text for contrast
@@ -55,8 +55,8 @@ config.colors = {
       italic = false,
     },
     inactive_tab = {
-      bg_color = "#262626", -- muted gray background
-      fg_color = "#8d8d8d", -- dimmed text
+      bg_color = "#393939",
+      fg_color = "#dde1e6",
       intensity = "Normal",
     },
     inactive_tab_hover = {
@@ -70,7 +70,7 @@ config.colors = {
       intensity = "Normal",
     },
     new_tab_hover = {
-      bg_color = "#3ddbd9", -- bright cyan when hovered
+      bg_color = "#c6fff6", -- VHS neon cyan when hovered
       fg_color = "#161616",
       italic = true,
     },
