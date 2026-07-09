@@ -32,7 +32,7 @@ config.colors = {
     "#ffd970", -- yellow  (color3) warnings
     "#33b1ff", -- blue    (color4) info / paths
     "#c49bff", -- magenta (color5) constants
-    "#a8ecff", -- cyan    (color6) strings
+    "#55e07a", -- cyan    (color6) strings
     "#dde1e6", -- white   (color7)
   },
   brights = {
@@ -42,7 +42,7 @@ config.colors = {
     "#ffb655", -- bright yellow  (color11)
     "#78c6ff", -- bright blue    (color12)
     "#d9b8ff", -- bright magenta (color13)
-    "#c6fff6", -- bright cyan    (color14)
+    "#72f59a", -- bright cyan    (color14)
     "#ffffff", -- bright white   (color15)
   },
   tab_bar = {
